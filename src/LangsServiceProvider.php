@@ -42,7 +42,7 @@ class LangsServiceProvider extends ServiceProvider
 
             // Registering package commands.
             $this->commands([
-                LocalizationsCommand::class
+                Nejcc\LaravelPlus\Lang\Commands\LocalizationsCommand::class
             ]);
         }
     }
