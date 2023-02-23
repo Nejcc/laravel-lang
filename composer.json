@@ -1,0 +1,54 @@
+{
+    "name": "nejcc/laravelplus-lang",
+    "description": "LaravelPlus lang generator",
+    "keywords": [
+        "nejcc",
+        "laravelplus-lang"
+    ],
+    "homepage": "https://github.com/nejcc/laravel-lang",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Nejcc",
+            "email": "neiclex@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^7.22.0",
+        "phpunit/phpunit": "^9.6.3",
+        "laravel/framework": "^9.52.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nejcc\\LaravelPlus\\Langs\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Nejcc\\LaravelPlus\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nejcc\\LaravelPlus\\Langs\\LangsServiceProvider"
+            ],
+            "aliases": {
+                "LaravelLangs": "Nejcc\\LaravelPlus\\Langs\\LangsFacade"
+            }
+        }
+    }
+}
