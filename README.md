@@ -3,6 +3,11 @@
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/nejcc/laravel-langs.svg?style=flat-square)](https://packagist.org/packages/nejcc/laravel-langs)
 [![Total Downloads](https://img.shields.io/packagist/dt/nejcc/laravel-langs.svg?style=flat-square)](https://packagist.org/packages/nejcc/laravel-langs)
 ![GitHub Actions](https://github.com/nejcc/laravel-langs/actions/workflows/main.yml/badge.svg)
+[![Stable Version][badge_stable]][link_packagist]
+[![Unstable Version][badge_unstable]][link_packagist]
+[![Total Downloads][badge_downloads]][link_packagist]
+[![Github Workflow Status][badge_build]][link_build]
+[![License][badge_license]][link_license]
 
 This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors.
 
