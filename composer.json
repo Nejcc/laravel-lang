@@ -3,7 +3,23 @@
     "description": "LaravelPlus lang generator",
     "keywords": [
         "nejcc",
-        "laravelplus-lang"
+        "laravelplus-lang",
+        "laravel-lang",
+        "translation",
+        "translations",
+        "laravel",
+        "language",
+        "languages",
+        "locales",
+        "locale",
+        "i18n",
+        "lang",
+        "publisher",
+        "http",
+        "http-status-code",
+        "http-status",
+        "attribute",
+        "attributes"
     ],
     "homepage": "https://github.com/nejcc/laravel-lang",
     "license": "MIT",
@@ -15,6 +31,8 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "require": {
         "php": "^8.0"
     },
